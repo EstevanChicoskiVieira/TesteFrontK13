@@ -1,4 +1,4 @@
-# TesteFrontK13
+# Teste Front-enk K13 Agência Web
 Teste para a vaga de Front-end da k13 Agẽncia Web. Feito por Estevan Chicoski Vieira. 
 
 O teste foi feito com base no [Layout](https://www.figma.com/design/sQ7N64xtuPpHuRi787PJFb/teste-frontend-k13?node-id=0-1&t=TNctQOQUGhYxwVcS-0) do figma criado pela equipe de Designe.
