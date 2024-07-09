@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teste Front</title>
+        <link rel="stylesheet" href="./Assets/Css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="/">
+                    <img src="./Assets/Imgs/Icons/logo.png" width="100px" alt="logo k13">
+                </a>
+            </div>
+            <div class="links">
+                <a id="l" href="#">Home</a>
+                <a id="l" href="#">Institucional</a>
+                <a id="l" href="#">Produtos</a>
+                <a id="l" href="#">Trabalhe Conosco</a>
+                <a id="l" href="#">Contatos</a>
+                
+                <a id="lupa" href="#">
+                    <img src="./Assets/Imgs/Icons/lupa.png" width="20px" alt="Lupa">
+                </a>
+            </div>
+            <div class="header-links" id="header2">
+                <a id="l" href="#">Home</a>
+                <a id="l" href="#">Institucional</a>
+                <a id="l" href="#">Produtos</a>
+                <a id="l" href="#">Trabalhe Conosco</a>
+                <a id="l" href="#">Contatos</a>
+                
+                <a id="lupa" href="#">
+                    <img src="./Assets/Imgs/Icons/lupa.png" width="20px" alt="Lupa">
+                </a>
+            </div>
+            <div class="header-menu-h">
+                <input onclick="active()" type="checkbox" class="menu-h" id="menu-h">
+    
+                <label for="menu-h">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </header>
+        <main>
+            <div class="banner">
+            </div>
+            <div class="main-div2">
+                <div class="container">
+                    <h2>Where can i get some</h2>
+                    <p>Lorem sed do eiusmod tempor ut labore et dolore</p>
+                    <a href="#">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="main-div3">
+                <div class="text">
+                    <h2>There are man variations</h2>
+                </div>
+                <div class="container" id="container">
+                    <!--Os cards serão carregados aqui-->
+                </div>
+            </div>
+            <div class="main-div4">
+                <h2>Where can i get some</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    <br>
+                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut
+                </p>
+                <a href="#">Conhecer</a>
+            </div>
+            <div class="main-div5">
+                <div class="text">
+                    <h2>Enviar mensagem</h2>
+                </div>
+                <div class="form">
+                    <form action="#">
+                        <div>
+                            <label for="nome"><p>Nome</p></label>
+                            <input type="text" name="Nome">
+                        </div>
+                        <div>
+                            <label for="email"><p>E-mail</p></label>
+                            <input type="email" name="email">
+                        </div>
+                        <div>
+                            <label for="tel"><p>Telefone</p></label>
+                            <input type="text" name="tel">
+                        </div>
+                        <div>
+                            <label for="cid"><p>Cidade</p></label>
+                            <input type="text" name="cid">
+                        </div>
+                        <div>
+                            <label for="msg"><p>Mensagem</p></label>
+                            <textarea name="msg" id="mensagem" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="submit" id="env" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <img src="./Assets/Imgs/Icons/logo.png" width="80px" alt="Logo k13">
+        </footer>
+        <script src="./Src/Js/main.js"></script>
+    </body>
